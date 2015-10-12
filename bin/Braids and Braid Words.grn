@@ -1,0 +1,182 @@
+<uml>
+   <greenVersion="30100"/>
+   <type>
+      <name="=Braids and Braid Words/src<visualization{BraidView.java[BraidView"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="887"/>
+      <y="225"/>
+   </type>
+   <type>
+      <name="=Braids and Braid Words/src<GUI{GUI.java[GUI"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="1154"/>
+      <y="34"/>
+   </type>
+   <type>
+      <name="=Braids and Braid Words/src<construction{Sigma.java[Sigma"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="372"/>
+      <y="31"/>
+   </type>
+   <type>
+      <name="=Braids and Braid Words/src<construction{Delta.java[Delta"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="372"/>
+      <y="556"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=Braids and Braid Words/src<construction{Delta.java[Delta"/>
+      <targetType="=Braids and Braid Words/src<construction{Sigma.java[Sigma"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <type>
+      <name="=Braids and Braid Words/src<construction{Braid.java[Braid"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="35"/>
+      <y="25"/>
+   </type>
+   <type>
+      <name="=Braids and Braid Words/src<construction{Braid.java[Braid[TreeNode"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="738"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=Braids and Braid Words/src<construction{Braid.java[Braid"/>
+      <targetType="=Braids and Braid Words/src<construction{Delta.java[Delta"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=Braids and Braid Words/src<construction{Braid.java[Braid"/>
+      <targetType="=Braids and Braid Words/src<construction{Braid.java[Braid[TreeNode"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=Braids and Braid Words/src<construction{Braid.java[Braid"/>
+      <targetType="=Braids and Braid Words/src<construction{Braid.java[Braid"/>
+      <bendpoints>
+         <bendpoint>
+            <x="40"/>
+            <y="0"/>
+         </bendpoint>
+         <bendpoint>
+            <x="40"/>
+            <y="-40"/>
+         </bendpoint>
+         <bendpoint>
+            <x="0"/>
+            <y="-40"/>
+         </bendpoint>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=Braids and Braid Words/src<GUI{GUI.java[GUI"/>
+      <targetType="=Braids and Braid Words/src<construction{Braid.java[Braid"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=Braids and Braid Words/src<construction{Braid.java[Braid"/>
+      <targetType="=Braids and Braid Words/src<construction{Sigma.java[Sigma"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=Braids and Braid Words/src<construction{Braid.java[Braid"/>
+      <targetType="=Braids and Braid Words/src<construction{Braid.java[Braid"/>
+      <bendpoints>
+         <bendpoint>
+            <x="40"/>
+            <y="0"/>
+         </bendpoint>
+         <bendpoint>
+            <x="40"/>
+            <y="-40"/>
+         </bendpoint>
+         <bendpoint>
+            <x="0"/>
+            <y="-40"/>
+         </bendpoint>
+      </bendpoints>
+   </relationship>
+   <type>
+      <name="=Braids and Braid Words/src<braidInterface{BraidWord.java[BraidWord"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="682"/>
+      <y="28"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.realization.RealizationPart"/>
+      <sourceType="=Braids and Braid Words/src<construction{Delta.java[Delta"/>
+      <targetType="=Braids and Braid Words/src<braidInterface{BraidWord.java[BraidWord"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.realization.RealizationPart"/>
+      <sourceType="=Braids and Braid Words/src<construction{Sigma.java[Sigma"/>
+      <targetType="=Braids and Braid Words/src<braidInterface{BraidWord.java[BraidWord"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <type>
+      <name="=Braids and Braid Words/src<algorithm{Algorithms.java[Algorithms"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="701"/>
+      <y="594"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=Braids and Braid Words/src<algorithm{Algorithms.java[Algorithms"/>
+      <targetType="=Braids and Braid Words/src<construction{Sigma.java[Sigma"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=Braids and Braid Words/src<algorithm{Algorithms.java[Algorithms"/>
+      <targetType="=Braids and Braid Words/src<construction{Braid.java[Braid"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=Braids and Braid Words/src<algorithm{Algorithms.java[Algorithms"/>
+      <targetType="=Braids and Braid Words/src<construction{Braid.java[Braid"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=Braids and Braid Words/src<algorithm{Algorithms.java[Algorithms"/>
+      <targetType="=Braids and Braid Words/src<construction{Delta.java[Delta"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.composition.CompositionPart"/>
+      <sourceType="=Braids and Braid Words/src<GUI{GUI.java[GUI"/>
+      <targetType="=Braids and Braid Words/src<algorithm{Algorithms.java[Algorithms"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+</uml>
+
